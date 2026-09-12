@@ -1,4 +1,88 @@
+/*
+Primeira paleta de cores:
+#305AB8 - Sapphire
+#3D5485 - Dusky Blue   
+#363F52 - Charcoal Blue
+#2C2E33 - Graphite
+#262A33 - Shadow Grey
+
+Cores extras:
+#A1B0F3
+*/
+
+
 * {
     margin: 0;
     padding:0;
+}
+
+body {
+    background-color: #a1b0f3;
+}
+
+header {
+    background-image: linear-gradient( to bottom,#3D5485,#305AB8);
+    text-align: center;
+    padding: 15px;
+    color:#262A33;
+}
+
+nav {
+    background-color:#305AB8;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.365);
+}
+
+nav a {
+    color: #262A33;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #262A33;
+    color: #305AB8;
+}
+
+div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.curso {
+    background-color: #262A33;
+    min-width: 100px;
+    max-width: 170px;
+    height: 170px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.418);
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.textCurso {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    font-size: 25px;
+    background-color:#a1b0f39d;
+    width: 170px;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #262A33;
 }
